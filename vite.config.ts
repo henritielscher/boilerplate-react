@@ -12,5 +12,7 @@ export default defineConfig({
 	},
 	server: {
 		port: 3005,
+		strictPort: true, // looks for alternative unused port if used
 	},
+	base: "./",
 });
